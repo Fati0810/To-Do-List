@@ -1,0 +1,124 @@
+body {
+    width: auto;
+    height: auto;
+    background-color: black;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+#container {
+    width: 1000px;
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 15%;
+}
+
+#quote {
+    background-color: black;
+    width: 300px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 60px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+#add-button {
+    width: 150px;
+    height: 25px;
+    padding: 7px;
+    border-radius: 12px;
+    border: solid 2px black;
+    background-color: #ffffff;
+
+}
+
+#button-add{
+    width: 50px;
+    height: 39px;
+    border-radius: 10px;
+    border: solid 2px black;
+    background-color: #ffffff;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+#list {
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#list-add {
+    margin: auto;
+    list-style: none;
+    font-size: 25px;
+}
+
+/* ul li::before {
+    content: '';
+    position: absolute; 
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+
+} */
+
+ul li{
+    position: relative;
+    color: #ffffff;
+    cursor: pointer;
+    /* background-color: blueviolet; */
+    margin-right: 50px;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+}
+
+/* ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    color: pink;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-left: 100px;
+
+} */
+
+/* le span n'est pas assez aligner à mon gout */
+
+ul li span {
+    position: absolute;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+ul li span:hover {
+    background: #ffffff;
+    color: black;
+
+}
