@@ -25,7 +25,7 @@
 .input-div h3 {
     font-size: 38px;
     font-weight: 400px;
-    margin: 10px 10px 20px 10px;
+    margin: 40px 10px 20px 10px;
     color: #fff;
 }
 
@@ -52,22 +52,36 @@
 }
 
 .div-task {
-    background: aquamarine;
+    margin-top: 50px;
+    /* background: aquamarine; */
     width: 500px;
     height: 200px;
+    text-align: center;
 }
 
 .div-task li {
     list-style: none;
-    color: #fff;
-    margin: 10px 10px 10px 10px;
+    color: black;
+    /* margin: 10px 10px 10px 10px; */
+    margin-bottom: 40px;
     /* padding: 10px 10px 10px 10px; */
-    padding: 5px;
-    background: red;
+    padding: 10px;
+    background: #fff;
     /* position: relative; */
+    width: 280px;
+    margin-right: auto;
+    margin-left: auto;
 } 
 
-.div-task i {
-    padding-left: 150px;
+.div-task li:first-child {
+    text-decoration: line-through;
+}
+
+.div-task .check {
+    margin-right: 50px;
+}
+
+.div-task .icon {
+    padding-left: 50px;
     color: black;
 }
